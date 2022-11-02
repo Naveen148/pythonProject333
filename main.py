@@ -1,7 +1,7 @@
 from typing import Optional
 
 from fastapi import FastAPI, Depends, Response
-from . import schemas, db, model
+from . import schemas, db, models
 from .db import engine
 from sqlalchemy.orm import Session
 
